@@ -1,0 +1,3 @@
+ - typeofsubect indicates whether the data is from a test subject or training subject
+- varibles in feature.txt are now properly paired as column names for the correct test or training data found in tables X_test.txt and X_train.txt respectively
+- activity_labels.txt are now properly paired as column names for the correct test or training activity type found in tables Y_test.txt and Y_train.txt respectively
