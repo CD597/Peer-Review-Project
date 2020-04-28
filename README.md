@@ -1,8 +1,8 @@
 # Peer-Review-Project
 This is my Peer Review Project for Getting and Cleaning Data class.  The goal of this project was to take data sets and great a tidy data set.  The finished tidy data set is called totaldata and a summarized tidy data set is called data_summary.  This project consists of the R script - run_analysis.R, this readme file, and a code book.
 
-The analysis of the data
-FThe process is as follows:
+
+The process is as follows:
 1 Read in test subject file (suject_test.txt) 
 2 Add column to indictate type of subject, used later when test and training data is combined
 3 Add column names - subject and type of subject
