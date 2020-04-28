@@ -68,10 +68,9 @@ mstraindata<-cbind(training_sub, mstraindata)
 ##combine test and train data
 totaldata <- rbind(mstestdata, mstraindata)
 
-write.table(totaldata, "./total.txt", row.names = FALSE)
-##write.csv(totaldata, "./total.csv")
 ##Extracts the mean and std data
 data_summary <- totaldata %>%
     group_by(subject,typeofsubject, activitylabel) %>%
     summarise_each(funs(mean))
+write.table(totaldata, "./summurizeddta.txt", row.names = FALSE)
 ##write_csv(data_summary, "./file.csv")
