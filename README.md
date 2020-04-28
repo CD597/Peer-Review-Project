@@ -1,4 +1,6 @@
 # Peer-Review-Project
+*Updated my submission on the website.
+
 I made in error on my submission and loaded the entire tidy dataset instead of the summarized one.  The summarized tidy data set is located below titled summarizedata.txt
 
 This is my Peer Review Project for Getting and Cleaning Data class.  The goal of this project was to take data sets and great a tidy data set.  The finished tidy data set is called totaldata and a summarized tidy data set is called data_summary.  This project consists of the R script - run_analysis.R, this readme file, and a code book.
